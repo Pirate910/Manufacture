@@ -455,71 +455,16 @@ button{
 
 }
 
-.swiper-master{
-  margin: 60px 15px;
-  &__slide{
-    position: relative;
-    margin-right: 20px;
-    &--image{
-      transition: .2s ease-in-out;
-      transition-delay: .2s;
-      &:hover{
-        cursor: pointer;
-        opacity: .8;
 
-      }
-    }
-  }
 
-  &__wrapper{
-    margin-bottom: 50px;
-  }
-
-  &__slide--block-text{
-    position: absolute;
-    top: 290px;
-    left: 0;
-    padding: 13px 33px 13px 15px;
-    background: linear-gradient(123deg, rgba(252, 254, 255, 0.30) 30.49%, rgba(252, 254, 255, 0.10) 74.05%);
-    backdrop-filter: blur(20px);
-  }
-
-  &__slide--text{
-    color: #FFF;
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 18px;
-  }
-
-  &__slide--sub-text{
-    color: #FFF;
-    font-family: Montserrat;
-    font-size: 13px;
-    font-weight: 300;
-    line-height: 18px; /* 138.462% */
-    text-align: center;
-  }
-
-  &__slide--image-container{
-    width: 270px;
-  }
-
-  &__slide--image{
-    max-width: 100%;
-  }
-
-}
-
-.construction__master{
-   &--swiper{
+.default-swiper-block{
+  &--swiper{
     display: flex;
     gap: 0 40px;
     align-items: center;
     position: relative;
   }
-  
+
   &--block-text{
     display: flex;
     flex-direction: column;
@@ -562,34 +507,33 @@ button{
   background-color: #d9d9d9;
 }
 
-.swiper-environment{
+.default-swiper_settings{
   margin: 60px 15px;
-  &__slide{
+  &--wrapper{
+    margin-bottom: 50px;
+  }
+
+  &--slide{
     margin-right: 20px;
     position: relative;
     z-index: 9;
   }
 
-  &__slide--image-container{
+  &--image-container{
     width: 270px;
   }
 
-  &__slide--image{
-    max-width: 100%;
+  &--slide--image{
     transition: .2s ease-in-out;
     transition-delay: .2s;
+    max-width: 100%;
     &:hover{
       cursor: pointer;
       opacity: .7;
     }
   }
 
-  &__wrapper{
-
-    margin-bottom: 50px;
-  }
-
-  &__slide--block-text{
+  &--block-text{
     position: absolute;
     max-width: 210px;
     gap: 5px 0;
@@ -601,59 +545,21 @@ button{
     padding: 16px;
   }
 
-  &__slide--sub-text{
+  &--text{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+  }
+
+  &--slide--sub-text{
     font-family: Montserrat;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     color: #FFF;
-  }
-
-}
-
-.construction__environment{
-  &--swiper{
-    display: flex;
-    gap: 0 40px;
-    position: relative;
-    align-items: center;
-  }
-
-  &--block-text{
-    display: flex;
-    flex-direction: column;
-    gap: 30px 0;
-    min-width: 40%;
-    align-items: center;
-  }
-
-  &--title{
-    color: #FFF;
-    font-family: Montserrat;
-    font-size: 30px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-  }
-
-  &--text{
-    position: relative;
-    max-width: 420px;
-    color: #FFF;
-    font-family: Montserrat;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 32px; /* 160% */
-    &::before{
-      content: "";
-      position: absolute;
-      top: -49px;
-      left: 0;
-      background-color: #FBB659;
-      width: 24px;
-      height: 2px;
-    }
   }
 
 }

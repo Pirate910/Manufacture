@@ -4,6 +4,27 @@
 const furnitureSwiper = new Swiper('.swiper-furniture', {
 
   slidesPerView: 4,
+
+  breakpoints: {
+
+    840:{
+      slidesPerView:2,
+    },
+
+    1080: {
+      slidesPerView: 2,
+    },  
+
+    1220: {
+      slidesPerView: 3,
+    },
+
+    1440: {
+      slidesPerView: 4,
+    },
+
+  },
+
   loop: true,
   autoplay: {
     delay: 2000,
@@ -50,6 +71,25 @@ const swiperSlide = document.querySelector(".swiper-slide");
 const masterSwiper = new Swiper('.swiper-master', {
 
   slidesPerView: 3,
+
+  breakpoints:{
+    840:{
+      slidesPerView:2,
+    },
+    
+    1080: {
+      slidesPerView: 2,
+    },  
+
+    1220: {
+      slidesPerView: 2,
+    },
+
+    1440: {
+      slidesPerView: 3,
+    },
+  },  
+
   loop:true,
   autoplay:{
     delay:5000,
@@ -76,6 +116,25 @@ const environmentSwiper = new Swiper('.swiper-environment', {
   autoplay:{
     delay:5000,
   },
+
+  breakpoints:{
+    840:{
+      slidesPerView:2,
+    },
+    
+    1080: {
+      slidesPerView: 2,
+    },  
+
+    1220: {
+      slidesPerView: 2,
+    },
+
+    1440: {
+      slidesPerView: 3,
+    },
+  },  
+
   
   pagination: {
     el: '.swiper-environment__pagination',
