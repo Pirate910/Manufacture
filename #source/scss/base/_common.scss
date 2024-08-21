@@ -1,0 +1,43 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+  list-style-type: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+*::after,*::before{
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body{
+  min-width: 100%;
+  color: #fff;
+  background: 
+  url(/image/BackLines_Mainscreen.png) , 
+  url(/image/GraphicLines_mainscreen.png) no-repeat #16191C;  font-family: Montserrat;
+  font-size: 16px;
+}
+
+a{
+  color: #fff;
+}
+
+button{
+  &:hover{
+   cursor: pointer;
+  }
+}
+
+.wrapper{
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,15 @@
+.send-btn{
+  font-family: Montserrat;
+  padding: 12px 30px;
+  color: #fff;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #FEBC59 0%, #F19C5E 91.15%);    font-size: 18px;
+  box-shadow: -1px 1px 1px 0px #DD782F;
+  letter-spacing: .5;
+  &:hover{
+    cursor: pointer;
+  }
+  &:active{
+    box-shadow: none;
+  }
+}

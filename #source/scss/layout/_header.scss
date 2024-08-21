@@ -1,0 +1,33 @@
+.header{
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 50;
+  background: var(--BlockTitles, linear-gradient(123deg, rgba(252, 254, 255, 0.30) 30.49%, rgba(252, 254, 255, 0.10) 74.05%));
+  backdrop-filter: blur(20px);
+  &__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 80px;
+  }
+
+  &__list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+}
+
+.menu-number{
+  padding: 0;
+  border: 0;
+}
+
+.menu-social{
+  display: flex;
+  align-items: center;
+  gap: 0 10px;
+}
