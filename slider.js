@@ -148,6 +148,10 @@ const environmentSwiper = new Swiper('.swiper-environment', {
   },
 
 });
+
+const defaultAllBlockContainer = document.querySelector('.container');
+
+
 // function checkButtonVisibility(swiperImage, swiperElButton) {
 //   if (swiperImage.classList.contains('active')) {
 //     swiperElButton.classList.remove('none');
