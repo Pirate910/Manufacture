@@ -1,11 +1,11 @@
 .advantages{
-  background: url(/image/advantage-background.png) 
+  background: url(./../../../image/advantage-background.png) 
   lightgray 50% / cover no-repeat;
   position: relative;
 
   &::after{
     content: "";
-    background: url(/image/black-background.jpg)lightgray 50% / cover no-repeat;
+    background: url(./../../../image/black-background.jpg)lightgray 50% / cover no-repeat;
     top: 0;
     left: 0;
     position: absolute;
