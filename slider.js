@@ -4,8 +4,14 @@
 const furnitureSwiper = new Swiper('.swiper-furniture', {
 
   slidesPerView: 4,
+  centeredSlides: true,
 
   breakpoints: {
+
+    375:{
+      slidesPerView:1,
+      spaceBetween: 30,
+    },
 
     840:{
       slidesPerView:2,
@@ -27,7 +33,7 @@ const furnitureSwiper = new Swiper('.swiper-furniture', {
 
   loop: true,
   autoplay: {
-    delay: 2000,
+    delay: 5000,
   },
 
   pagination: {
@@ -73,6 +79,12 @@ const masterSwiper = new Swiper('.swiper-master', {
   slidesPerView: 3,
 
   breakpoints:{
+
+    375:{
+      slidesPerView: 1,
+      spaceBetween: 30,
+    },
+
     840:{
       slidesPerView:2,
     },
@@ -118,6 +130,11 @@ const environmentSwiper = new Swiper('.swiper-environment', {
   },
 
   breakpoints:{
+
+    375:{
+      slidesPerView:1,
+    },
+    
     840:{
       slidesPerView:2,
     },

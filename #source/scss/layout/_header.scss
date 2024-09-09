@@ -31,3 +31,17 @@
   align-items: center;
   gap: 0 10px;
 }
+
+
+@media (max-width: 376px){
+
+  .header{
+    position: fixed;
+  }
+
+  
+  .menu-gmail{
+    display: none;
+  }
+
+}
