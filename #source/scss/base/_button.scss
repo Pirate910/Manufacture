@@ -13,3 +13,10 @@
     box-shadow: none;
   }
 }
+
+@media (max-width: 376px){
+  .send-btn{
+    padding: 12px 21px;
+    font-size: 12px;
+  }
+}

@@ -37,3 +37,52 @@
   }
 
 }
+
+@media (max-width: 375px){
+  .partners{
+    &__container{
+      padding: 100px 15px;
+    }
+  
+    &__title{
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 28px; /* 140% */
+    }
+  
+    &__top-partners{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 50px;
+      &--item{
+        position: relative;
+        padding-right: 0;
+        &::after{
+          display: none;
+          content: "";
+          position: absolute;
+          top: 50%;
+          transform:translate(-50%, -50%);
+          right: 0;
+          width: 2px;
+          height: 52px;
+  
+          background: #FDBB59;
+        }
+      }
+
+      &--item-link{
+        width: 156px;
+        height: 62px;        
+        img{
+          height: 62px;
+          max-width: 100%;
+        }
+      }
+
+    }
+  
+  }
+}
