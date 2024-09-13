@@ -13,6 +13,7 @@
 @import "./section/_done-ideas.scss";
 @import './section/_experience.scss';
 @import './section/_scheme.scss';
+@import './section/_contact-info.scss';
 
 .none{
   display: none;
@@ -38,81 +39,4 @@
   &:focus{
     transform: scale(1.2);
   }
-}
-
-.contact-info{
-  &__container{
-    padding: 150px 15px;
-  }
-
-  &__main{
-    display: flex;
-    justify-content: space-around;
-  }
-
-  &__main-item{
-    display: flex;
-    flex-direction: column;
-  }
-
-}
-
-.main-item{
-  &__logo{
-    width: 233px;
-    height: 165px;
-    img{
-      max-width: 100%;
-      height: auto;
-      display: block;
-    }
-  }
-
-  &__logo-title{
-    text-align: center;
-    font-size: 24px;
-    font-weight: 300;
-    line-height: 32px; /* 133.333% */
-    max-width: 240px;
-  }
-
-  &__title{
-    font-size: 28px;
-    font-weight: 500;
-    margin-bottom: 50px;
-  }
-
-  &__contact--column{
-    display: flex;
-    flex-direction: column;
-    gap: 42px 0; 
-  }
-
-  &__contact--link{
-    display: flex;
-    gap: 0 15px;
-  }
-
-  &__contact--text{
-    font-size: 24px;
-    font-weight: 400;
-  }
-
-  &__menu{
-    display: flex;
-    flex-direction: column;
-    gap: 35px 0; 
-  }
-
-  &__about--link{
-    font-size: 24px;
-    font-weight: 400;
-  }
-
-}
-
-.main-item__contact--link:hover,
-.main-item__about--link:hover{
-  transition: .2s ease-in-out;
-  color: #fdbb59;
 }
