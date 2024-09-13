@@ -8,7 +8,7 @@ const furnitureSwiper = new Swiper('.swiper-furniture', {
 
   breakpoints: {
 
-    375:{
+    270:{
       slidesPerView:1,
       spaceBetween: 30,
     },
@@ -80,7 +80,7 @@ const masterSwiper = new Swiper('.swiper-master', {
 
   breakpoints:{
 
-    375:{
+    270:{
       slidesPerView: 1,
       spaceBetween: 30,
     },
@@ -131,7 +131,7 @@ const environmentSwiper = new Swiper('.swiper-environment', {
 
   breakpoints:{
 
-    375:{
+    270:{
       slidesPerView:1,
     },
     
