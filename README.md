@@ -18,3 +18,5 @@ update 1.3:
 5: Partners
 6: Product
 7: Furniture and other
+
+https://pirate910.github.io/Manufacture/
